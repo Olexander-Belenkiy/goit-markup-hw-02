@@ -1,0 +1,199 @@
+:root {
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --third-tite-color: #757575;
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+.logo {
+  color: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* --------------header-------------- */
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-tite-color);
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-tite-color);
+}
+
+.header-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-title-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.header-btn:focus,
+.header-btn:hover {
+  color: rgba(0, 0, 0, 0.15);
+}
+.header-btn {
+  background-color: var(--accent-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+.baner {
+  background-color: #2f303a;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+
+.after-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.41;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.pre-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.comand-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.comand-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.contacts {
+  background-color: #2f303a;
+}
+.goo {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+.mail,
+.phone {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Pottfolio*/
+.filtr-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+  background-color: var(--accent-color);
+  color: #f5f4fa;
+}
+
+.title-filtr {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.text-filtr {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--third-tite-color);
+}
